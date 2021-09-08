@@ -14,6 +14,7 @@ const PORT = process.env.PORT || 4000;
 
 app.get("/", (request, response) => {
   response.send(homepage)
+  // response.sendfile('public/index.html');
 })
 
 app.get("/houses", async (request, response) => {
