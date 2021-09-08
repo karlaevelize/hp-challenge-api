@@ -6,7 +6,7 @@ const homepage = `<html>
       <p>🧹 Houses endpoints</p>
       <ul>
         <li>GET all houses <a href="https://hp-assessment-api.herokuapp.com/houses" target="_blank">/houses</a></li>
-        <li>GET house by id <a href="https://hp-assessment-api.herokuapp.com/houses" target="_blank">/house/:id</a></li></li>
+        <li>GET house by id <a href="https://hp-assessment-api.herokuapp.com/house/1" target="_blank">/house/:id</a></li></li>
       </ul>
       <p>🧹 Characters endpoints</p>
       <ul>
