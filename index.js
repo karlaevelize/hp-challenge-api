@@ -1,5 +1,6 @@
 const express = require("express")
 const cors = require("cors")
+const homepage = require("./homepage")
 
 const Houses = require("./models").house
 const Characters = require("./models").character
@@ -12,7 +13,7 @@ app.use(cors())
 const PORT = process.env.PORT || 4000;
 
 app.get("/", (request, response) => {
-  response.send("Hello from HP API")
+  response.send(homepage)
 })
 
 app.get("/houses", async (request, response) => {
