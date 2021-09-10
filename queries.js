@@ -6,7 +6,7 @@ const getHouses = async () => {
   return houses.map(house => house.get({plain: true}))
 }
 
-// getHouses().then(data => console.log(data))
+getHouses().then(data => console.log(data))
 
 const getCharacters = async () => {
   const chars = await Characters.findAll({include: Houses})

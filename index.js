@@ -23,19 +23,19 @@ app.get("/houses", async (request, response) => {
 })
 
 app.get("/characters", async (request, response) => {
-  const chars = await Characters.findAll()
+  const chars = await Characters.findAll({include: [Houses]})
   response.send(chars)
 })
 
 app.get("/house/:id", async (request, response) => {
   const { id } = request.params
-  const house = await Houses.findByPk(id)
+  const house = await Houses.findByPk(id, {include: [Characters]})
   response.send(house)
 })
 
 app.get("/character/:id", async (request, response) => {
   const { id } = request.params
-  const character = await Characters.findByPk(id)
+  const character = await Characters.findByPk(id, {include: Houses})
   response.send(character)
 })
 
