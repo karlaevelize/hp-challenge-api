@@ -300,7 +300,7 @@ module.exports = {
           patronus: "Non-corporeal",
           born: "1955",
           quote: "He is dead!",
-          imgUrl: "",
+          imgUrl: "https://static.wikia.nocookie.net/muggle-born/images/2/26/NarcissaMalfoy.jpg/revision/latest?cb=20131222105412",
           houseId: 4,
           createdAt: new Date(),
           updatedAt: new Date(),
