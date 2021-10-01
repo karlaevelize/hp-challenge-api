@@ -229,6 +229,7 @@ module.exports = {
           born: "In or before 1960",
           quote: "The Ministry has fallen. Scrimgeour is dead. They are coming.",
           imgUrl: "https://i.pinimg.com/originals/c7/c4/48/c7c4482cd9005a116c66ca85a0ed3d94.jpg",
+          houseId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
