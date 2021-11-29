@@ -18,12 +18,12 @@ const homepage = `<html>
       <p>♛ Game of Thrones Houses endpoints</p>
       <ul>
         <li>GET all houses <a href="https://hp-assessment-api.herokuapp.com/got/houses" target="_blank">/got/houses</a></li>
-        <li>GET house by id <a href="https://hp-assessment-api.herokuapp.com/got/house/1" target="_blank">/got/houses/:id</a></li></li>
+        <li>GET house by id <a href="https://hp-assessment-api.herokuapp.com/got/houses/1" target="_blank">/got/houses/:id</a></li></li>
       </ul>
       <p>♛ Game of Thrones Characters endpoints</p>
       <ul>
         <li>GET all characters <a href="https://hp-assessment-api.herokuapp.com/got/characters" target="_blank">/got/characters</a></li>
-        <li>GET characters by id <a href="https://hp-assessment-api.herokuapp.com/got/character/1" target="_blank">/got/characters/:id</a></li>
+        <li>GET characters by id <a href="https://hp-assessment-api.herokuapp.com/got/characters/1" target="_blank">/got/characters/:id</a></li>
       </ul>
     </body>
   </html>`
