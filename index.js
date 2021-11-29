@@ -1,9 +1,9 @@
 const express = require("express")
 const cors = require("cors")
-const homepage = require("./homepage")
 
-const Houses = require("./models").house
-const Characters = require("./models").character
+const homepage = require("./homepage")
+const hpRouter = require("./routers/harry-potter")
+const gotRouter = require("./routers/game-of-thrones")
 
 const app = express()
 
@@ -17,26 +17,7 @@ app.get("/", (request, response) => {
   // response.sendfile('public/index.html');
 })
 
-app.get("/houses", async (request, response) => {
-  const houses = await Houses.findAll()
-  response.send(houses)
-})
-
-app.get("/characters", async (request, response) => {
-  const chars = await Characters.findAll({include: [Houses]})
-  response.send(chars)
-})
-
-app.get("/house/:id", async (request, response) => {
-  const { id } = request.params
-  const house = await Houses.findByPk(id, {include: [Characters]})
-  response.send(house)
-})
-
-app.get("/character/:id", async (request, response) => {
-  const { id } = request.params
-  const character = await Characters.findByPk(id, {include: Houses})
-  response.send(character)
-})
+app.use("/hp", hpRouter)
+app.use("/got", gotRouter)
 
 app.listen(PORT, () => console.log(`listening on ${PORT}`))
