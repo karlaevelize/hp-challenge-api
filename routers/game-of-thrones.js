@@ -5,7 +5,7 @@ const Characters = require("../models").gotCharacter
 const Houses = require("../models").gotHouse
 
 router.get("/characters", async (request, response, next) => {
-  const characters = await Characters.findAll()
+  const characters = await Characters.findAndCountAll()
   response.send(characters)
 })
 
@@ -16,7 +16,7 @@ router.get("/characters/:id", async (request, response, next) => {
 })
 
 router.get("/houses", async (request, response, next) => {
-  const houses = await Houses.findAll()
+  const houses = await Houses.findAndCountAll()
   response.send(houses)
 })
 
