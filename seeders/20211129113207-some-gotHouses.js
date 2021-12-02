@@ -14,7 +14,7 @@ module.exports = {
         head: "Lord Eddard Stark",
         founder: "Bran the Bilder",
         extinct: false,
-        imageUrl: "https://static.wikia.nocookie.net/gameofthrones/images/8/8a/House-Stark-Main-Shield.PNG/revision/latest/scale-to-width-down/700?cb=20170101103142",
+        imageUrl: "https://static.wikia.nocookie.net/gameofthrones/images/8/8a/House-Stark-Main-Shield.PNG",
         createdAt: new Date(),
         updatedAt: new Date()
        },
@@ -27,7 +27,7 @@ module.exports = {
         head: "Tywin Lannister",
         founder: "Lann the Clever",
         extinct: false,
-        imageUrl: "https://static.wikia.nocookie.net/gameofthrones/images/8/8a/House-Lannister-Main-Shield.PNG/revision/latest/scale-to-width-down/700?cb=20170101095357",
+        imageUrl: "https://static.wikia.nocookie.net/gameofthrones/images/8/8a/House-Lannister-Main-Shield.PNG",
         createdAt: new Date(),
         updatedAt: new Date()
        },
@@ -40,7 +40,7 @@ module.exports = {
         head: "Edmure Tully",
         founder: "Axel Tully",
         extinct: false,
-        imageUrl: "https://static.wikia.nocookie.net/gameofthrones/images/b/bd/House-Tully-Main-Shield.PNG/revision/latest/scale-to-width-down/700?cb=20170523040648",
+        imageUrl: "https://static.wikia.nocookie.net/gameofthrones/images/b/bd/House-Tully-Main-Shield.PNG",
         createdAt: new Date(),
         updatedAt: new Date()
        },
@@ -53,7 +53,7 @@ module.exports = {
         head: "Robert Baratheon",
         founder: "Orys Baratheon",
         extinct: false,
-        imageUrl: "https://static.wikia.nocookie.net/gameofthrones/images/0/00/House-Baratheon-Main-Shield.PNG/revision/latest/scale-to-width-down/700?cb=20170519002924",
+        imageUrl: "https://static.wikia.nocookie.net/gameofthrones/images/0/00/House-Baratheon-Main-Shield.PNG",
         createdAt: new Date(),
         updatedAt: new Date()
        },
@@ -66,7 +66,7 @@ module.exports = {
         head: "Daenerys Targaryen",
         founder: "Aegon Targaryen",
         extinct: false,
-        imageUrl: "https://static.wikia.nocookie.net/gameofthrones/images/4/43/House-Targaryen-Main-Shield.PNG/revision/latest/scale-to-width-down/700?cb=20181113055101",
+        imageUrl: "https://static.wikia.nocookie.net/gameofthrones/images/4/43/House-Targaryen-Main-Shield.PNG",
         createdAt: new Date(),
         updatedAt: new Date()
        },
@@ -79,7 +79,7 @@ module.exports = {
         head: "Mace Tyrell",
         founder: "Alester Tyrel",
         extinct: false,
-        imageUrl: "https://static.wikia.nocookie.net/gameofthrones/images/c/cf/House-Tyrell-Main-Shield.PNG/revision/latest/scale-to-width-down/700?cb=20170108163035",
+        imageUrl: "https://static.wikia.nocookie.net/gameofthrones/images/c/cf/House-Tyrell-Main-Shield.PNG",
         createdAt: new Date(),
         updatedAt: new Date()
        },
