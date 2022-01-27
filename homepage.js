@@ -1,6 +1,6 @@
 const homepage = `<html>
     <body>
-      <p><b>Base url:</b> https://react-assessment-api.herokuapp.com</p>
+      <p><b>Base url:</b> https://hp-assessment-api.herokuapp.com/</p>
       <h2>⚡ Harry Potter API - React Challenge</h2>
       <h3>Here is a list of the endpoints available in this API:</h3>
       <p>🧹 Harry Potter Houses endpoints</p>
